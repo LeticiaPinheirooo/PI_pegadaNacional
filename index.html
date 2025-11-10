@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pegada Nacional - LandingPage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pegada Nacional</title>
+  <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
-    
+
+  <header class="radio-header">
+    <div class="logo-area">
+      <img src="assets/img/LOGO.png" alt="Logo" class="logo">
+      <span class="site-nome">Pegada Nacional</span>
+    </div>
+
+    <nav class="radio-navbar">
+      <label>
+        <input type="radio" name="nav" checked>
+        <span>Início</span>
+      </label>
+      
+      <div class="dropdown">
+        <label>
+          <input type="radio" name="nav">
+          <span>Artistas ▾</span>
+        </label>
+        <div class="dropdown-content">
+          <a href="#">Anos 80</a>
+          <a href="#">Anos 90</a>
+          <a href="#">Anos 2000</a>
+          <a href="#">Novos nomes</a>
+        </div>
+      </div>
+
+      <label>
+        <input type="radio" name="nav">
+        <span>Fórum</span>
+      </label>
+
+      <label>
+        <input type="radio" name="nav">
+        <span>Jogar</span>
+      </label>
+    </nav>
+
+    <div class="login-area">
+      <button class="login-btn">Login</button>
+    </div>
+  </header>
+
+   <!-- ======= CAMPO DE VÍDEO ======= -->
+  <section class="video-section">
+   
+     <video class="video-banner" autoplay muted loop>
+      <source src="assets/video/bannerVideo-VHS ‐ Feito com o Clipchamp (2).mp4" type="video/mp4">
+      Seu navegador não suporta vídeos em HTML5.
+    </video> 
+  </section>
+
 </body>
 </html>
