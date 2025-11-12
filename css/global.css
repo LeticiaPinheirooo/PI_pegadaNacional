@@ -68,7 +68,7 @@ body {
 }
 
 .radio-navbar input:checked + span {
-  color: #eeea7f;
+  color: #eeea7f; /*igual um active para quando clica no botão*/
   text-shadow: 0 0 10px #fafdca; /*brilho quando clica no botao + em geral*/
 }
 
@@ -104,7 +104,7 @@ body {
   filter: brightness(1.2);
 }
 
-/* Dropdown alinhado */
+/* dropdown alinhado certo agr */
 .dropdown-conteudo {
   display: none;
   position: absolute;
@@ -135,7 +135,7 @@ body {
   color: #cae2fd;
 }
 
-/* mostrar ao passar o mouse */
+/* mostra ao passar o mouse */
 .dropdown:hover .dropdown-conteudo {
   display: flex;
 }
@@ -161,8 +161,8 @@ body {
 }
 
 
-/* ======= SEÇÃO DE VÍDEO ======= */
-.video-section {
+/* PARTE DO VIDEO */
+.video-secao {
   width: 100%;
   height: 625px;
   overflow: hidden;
