@@ -3,60 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pegada Nacional</title>
-  <link rel="stylesheet" href="css/global.css">
+  <title>Pegada Nacional | LandingPage</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pagina.css">
 </head>
 <body>
-
-  <header class="radio-header">
-    <div class="logo-area">
-      <img src="assets/img/LOGO.png" alt="Logo" class="logo">
-      <span class="site-nome">Pegada Nacional</span>
-    </div>
-
-    <nav class="radio-navbar">
-      <label>
-        <input type="radio" name="nav" checked>
-        <span>Início</span>
-      </label>
-      
-      <div class="dropdown">
-        <label>
-          <input type="radio" name="nav">
-          <span>Artistas ▾</span>
-        </label>
-        <div class="dropdown-conteudo">
-          <a href="#">Aaa</a>
-          <a href="#">Aaa</a>
-          <a href="#">Aaaa</a>
-          <a href="#">Naaaa</a>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar-content">
+      <div class="logo">
+        <div class="logo-box">
+          <img src="assets/img/LOGO.png" alt="logo"> <!--nao sei como funfa quando coloca la no css tb-->
         </div>
+        <span>PEGADA NACIONAL</span> <!--dps descobrir como troca a fonte-->
       </div>
-
-      <label>
-        <input type="radio" name="nav">
-        <span>Fórum</span>
-      </label>
-
-      <label>
-        <input type="radio" name="nav">
-        <span>Jogar</span>
-      </label>
-    </nav>
-
-    <div class="login-area">
-      <button class="login-btn">Login</button>
+      <nav class="menu">
+        <a href="#">INÍCIO</a>
+        
+        <div class="dropdown">
+          <a href="#" class="drop-botao">ARTISTAS</a>
+          <div class="dropdown-conteudo">
+            <a href="#">Solo</a>
+            <a href="#">Bandas</a>
+            <a href="#">Regionais</a>
+          </div>
+        </div>
+        
+        <a href="jogoCompleteLetra.html">JOGAR</a>
+        <a href="login.html">LOGIN</a>
+      </nav>
     </div>
   </header>
 
-   
-  <section class="video-secao">
-   
-     <video class="video-banner" autoplay muted >
-      <source src="assets/video/V4-SLA-bannerVideo-VHS ‐ Feito com o Clipchamp.mp4" type="video/mp4">
-      Seu navegador não suporta vídeos em HTML5.
-    </video> 
-  </section>
+  <!-- Área do vídeo -->
+  <main class="video-section">
+    <video autoplay muted src="assets/video/V4-SLA-bannerVideo-VHS ‐ Feito com o Clipchamp.mp4"></video>
+  </main>
 
+  <div id="divisao-cores"></div>  <!--so p aparecer as corzinha-->
+
+  <!-- catalogo --------------------------------------------->
+  <div class="catalogo-container">
+  <div class="catalogo-esquerda">
+    <img src="assets/img/catalogo_discos.png" alt="Capa de discos">
+  </div>
+
+  <div class="catalogo-direita">
+    <h2>catálogo</h2>
+    <p>sla se vai ter algo aqui AAAAAAAAAAAAAAAAAAAAAAA</p>
+    <div class="catalogo-scroll">
+      <div class="item">
+        <img src="" alt="Album 1">
+      </div>
+      <div class="item">
+        <img src="" alt="Album 1">
+      </div>
+      <div class="item">
+        <img src="" alt="Album 1">
+      </div>
+      <div class="item">
+        <img src="" alt="Album 1">
+      </div>
+      <div class="item">
+        <img src="" alt="Album 1">
+      </div>
+      <div class="item">
+        <img src="" alt="Album 1">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--parte do jogo -->
+<div class="jogo-container">
+  <!-- Lado esquerdo -->
+  <div class="jogo-esquerda">
+    <h2>vamos jogar?</h2>
+
+    <div class="caixa-texto">
+      <p>explica um pouco as regras do jogo</p>
+      <p>faz umas piadas sla</p>
+      <button class="botao-iniciar">iniciar →</button>
+    </div>
+  </div>
+
+  <!-- Lado direito -->
+  <div class="jogo-direita">
+    <div class="colagem">
+      <img src="assets/img/colagem_jogo.png" alt="colagem_jogo">
+    </div>
+  </div>
+</div>
+
+<div id="divisao-cores"></div>  <!--so p aparecer as corzinha-->
+
+<!--PARTE DE BASTIDORES -->
+<div style="background-color: gray; height: 650px;">
+  alguma coisa?
+</div>
+
+
+  <!-- Faixa colorida inferior -->
+  <footer class="footer"></footer>
 </body>
 </html>
